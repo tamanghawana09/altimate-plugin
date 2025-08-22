@@ -1,0 +1,71 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ :root{
+	--primary-color: #41C5B8;
+ }
+.wp-block-create-block-altimate-gutenberg-carousel {
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 2px;
+}
+.altimate-gutenberg-tabs-header button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+.altimate-gutenberg-tabs-header button.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+.altimate-gutenberg-tab-panel{
+  padding-top: 20px;
+}
+.inner-tab-buttons button.active {
+  font-weight: bold;
+}
+.agc-slider-settings{
+ background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 20px 10px 20px 10px;
+}
+.agc-skin-container{
+  display: flex;
+  justify-content: space-around;
+}
+.agc-skin-container label{
+  align-content: center;
+}
+.agc-slider-tab-button{
+  display: flex;
+  justify-content:space-around;
+}
+.agc-slider-tab-container{
+  padding:20px
+}
+.agc-slider-tab-button button{
+  padding: 6px 12px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+.agc-slider-tab-button button.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+.agc-slider-tab-content{
+  padding-top: 20px
+}
+.agc-toggle-button-color .components-form-toggle.is-checked .components-form-toggle__track {
+  background-color: var(--primary-color)!important; 
+}
+.agc-toggle-button-color .components-form-toggle.is-checked .components-form-toggle__thumb {
+  border-color: var(--primary-color) !important;
+}
+.agc-horizontal-alignment{
+  padding-bottom:20px;
+}

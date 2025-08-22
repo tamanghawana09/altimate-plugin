@@ -1,0 +1,310 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/altimate-banner-carousel",
+	"version": "1.0.0",
+	"title": "Altimate Banner Carousel Pro",
+	"category": "altimate",
+	"icon": "slides",
+	"description": "A highly customizable & responsive plugin for gutenberg.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		]
+	},
+	"attributes": {
+		"slides": {
+			"type": "array",
+			"default": [
+				{
+					"id": 1,
+					"image": "",
+					"title": "SLIDER TITLE",
+					"content": "Slider CONTENT",
+					"buttonOneText": "BUTTON ONE",
+					"buttonOneUrl": "#",
+					"buttonTwoText": "BUTTON TWO",
+					"buttonTwoUrl": "#"
+				}
+			]
+		},
+		"socialIcons": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "object",
+				"properties": {
+					"icon": {
+						"type": "string",
+						"default": ""
+					},
+					"label": {
+						"type": "string",
+						"default": ""
+					},
+					"url": {
+						"type": "string",
+						"default": ""
+					},
+					"openInNewTab": {
+						"type": "boolean",
+						"default": false
+					}
+				}
+			}
+		},
+		"skins": {
+			"type": "string",
+			"default": "default"
+		},
+		"slidesby": {
+			"type": "number",
+			"default": 1
+		},
+		"slideSpeed": {
+			"type": "number",
+			"default": 300
+		},
+		"zIndex": {
+			"type": "number",
+			"default": 1
+		},
+		"autoplay": {
+			"type": "boolean",
+			"default": true
+		},
+		"autoplaySpeed": {
+			"type": "number",
+			"default": 3000
+		},
+		"loop": {
+			"type": "boolean",
+			"default": true
+		},
+		"showDots": {
+			"type": "boolean",
+			"default": true
+		},
+		"showIcons": {
+			"type": "boolean",
+			"default": true
+		},
+		"showArrows": {
+			"type": "boolean",
+			"default": true
+		},
+		"adaptiveHeight": {
+			"type": "boolean",
+			"default": true
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			}
+		},
+		"margin": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			}
+		},
+		"horizontalAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"verticalAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"sliderHeight": {
+			"type": "string",
+			"default": "400px"
+		},
+		"sliderWidth": {
+			"type": "string",
+			"default": "100%"
+		},
+		"gap": {
+			"type": "string",
+			"default": "0px"
+		},
+		"subtitleColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"subtitleTypography": {
+			"type": "object",
+			"default": {
+				"fontFamily": "inherit",
+				"fontSize": "16px",
+				"fontWeight": "400",
+				"textTransform": "none",
+				"fontStyle": "normal",
+				"textDecoration": "none",
+				"lineHeight": "1.5",
+				"letterSpacing": "0px",
+				"wordSpacing": "0px"
+			}
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"titleTypography": {
+			"type": "object",
+			"default": {
+				"fontFamily": "inherit",
+				"fontSize": "48px",
+				"fontWeight": "700",
+				"textTransform": "uppercase",
+				"fontStyle": "normal",
+				"textDecoration": "none",
+				"lineHeight": "1.2",
+				"letterSpacing": "2px",
+				"wordSpacing": "0px"
+			}
+		},
+		"contentColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"contentTypography": {
+			"type": "object",
+			"default": {
+				"fontFamily": "inherit",
+				"fontSize": "18px",
+				"fontWeight": "400",
+				"textTransform": "none",
+				"fontStyle": "normal",
+				"textDecoration": "none",
+				"lineHeight": "1.6",
+				"letterSpacing": "0px",
+				"wordSpacing": "0px"
+			}
+		},
+		"primaryButtonColor": {
+			"type": "string",
+			"default": "#333333"
+		},
+		"primaryButtonBackgroundColor": {
+			"type": "string",
+			"default": "rgba(255,255,255,0.9)"
+		},
+		"primaryButtonIconBgColor": {
+			"type": "string",
+			"default": "#333333"
+		},
+		"primaryButtonIconColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"primaryButtonTypography": {
+			"type": "object",
+			"default": {
+				"fontFamily": "inherit",
+				"fontSize": "14px",
+				"fontWeight": "600",
+				"textTransform": "none",
+				"fontStyle": "normal",
+				"textDecoration": "none",
+				"lineHeight": "1.4",
+				"letterSpacing": "0px",
+				"wordSpacing": "0px"
+			}
+		},
+		"secondaryButtonColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"secondaryButtonBackgroundColor": {
+			"type": "string",
+			"default": "rgba(0,0,0,0.8)"
+		},
+		"secondaryButtonIconBgColor": {
+			"type": "string",
+			"default": "#4ECDC4"
+		},
+		"secondaryButtonIconColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"secondaryButtonTypography": {
+			"type": "object",
+			"default": {
+				"fontFamily": "inherit",
+				"fontSize": "14px",
+				"fontWeight": "600",
+				"textTransform": "none",
+				"fontStyle": "normal",
+				"textDecoration": "none",
+				"lineHeight": "1.4",
+				"letterSpacing": "0px",
+				"wordSpacing": "0px"
+			}
+		},
+		"buttonBorderRadius": {
+			"type": "string",
+			"default": "25px"
+		},
+		"buttonPadding": {
+			"type": "object",
+			"default": {
+				"top": "12px",
+				"right": "30px",
+				"bottom": "12px",
+				"left": "30px"
+			}
+		},
+		"buttonIconPadding": {
+			"type": "string",
+			"default": "10px"
+		},
+		"buttonIconBorderRadius": {
+			"type": "string",
+			"default": "50%"
+		},
+		"navBackgroundColor": {
+			"type": "string",
+			"default": "rgba(255,255,255,0.8)"
+		},
+		"navIconColor": {
+			"type": "string",
+			"default": "#333333"
+		},
+		"navHoverBackgroundColor": {
+			"type": "string",
+			"default": "rgba(255,255,255,1)"
+		},
+		"navHoverIconColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"dotBackgroundColor": {
+			"type": "string",
+			"default": "#cccccc"
+		},
+		"dotActiveColor": {
+			"type": "string",
+			"default": "#4ECDC4"
+		},
+		"dotHoverBackgroundColor": {
+			"type": "string",
+			"default": "#999999"
+		}
+	},
+	"textdomain": "altimate-gutenberg-carousel-pro",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
