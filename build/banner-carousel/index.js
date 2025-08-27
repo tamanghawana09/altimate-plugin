@@ -8,7 +8,7 @@
   \****************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"]},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#ffffff"},"subtitleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"16px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.5","letterSpacing":"0px","wordSpacing":"0px"}},"titleColor":{"type":"string","default":"#ffffff"},"titleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"48px","fontWeight":"700","textTransform":"uppercase","fontStyle":"normal","textDecoration":"none","lineHeight":"1.2","letterSpacing":"2px","wordSpacing":"0px"}},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleFontFamily":{"type":"string","default":"inherit"},"subtitleFontSize":{"type":"string","default":"16px"},"subtitleLineHeight":{"type":"number","default":1.5},"subtitleLetterSpacing":{"type":"number","default":1.5},"subtitleWordSpacing":{"type":"number","default":1},"subtitleFontWeight":{"type":"string","default":"400"},"subtitleTextTransform":{"type":"string","default":"none"},"subtitleTextDecoration":{"type":"string","default":"none"},"titleColor":{"type":"string","default":"#ffffff"},"titleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"48px","fontWeight":"700","textTransform":"uppercase","fontStyle":"normal","textDecoration":"none","lineHeight":"1.2","letterSpacing":"2px","wordSpacing":"0px"}},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
@@ -489,10 +489,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
-/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./GoogleFontsPicker */ "./src/components/Settings/GoogleFontsPicker.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -504,7 +506,20 @@ const ContentDesignSettings = ({
     padding,
     horizontalAlignment,
     verticalAlignment,
-    sliderHeight
+    sliderHeight,
+    unit,
+    sliderWidth,
+    gap,
+    subtitleColor,
+    subtitleFontFamily,
+    subtitleFontSize,
+    subtitleFontStyle,
+    subtitleLineHeight,
+    subtitleFontWeight,
+    subtitleLetterSpacing,
+    subtitleTextTransform,
+    subtitleTextDecoration,
+    subtitleWordSpacing
   } = attributes;
   const updateHorizontalAlignment = newAlign => {
     setAttributes({
@@ -516,117 +531,367 @@ const ContentDesignSettings = ({
       verticalAlignment: newAlign
     });
   };
-  const updateValue = val => {
-    setAttributes({
-      sliderHeight: {
-        ...sliderHeight,
-        value: val
-      }
-    });
-  };
-  const updateUnit = unit => {
-    setAttributes({
-      sliderHeight: {
-        ...sliderHeight,
-        unit
-      }
-    });
-  };
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+  const colors = [{
+    name: "Black",
+    color: "#000000"
+  }, {
+    name: "White",
+    color: "#ffffff"
+  }, {
+    name: "Blue",
+    color: "#007cba"
+  }, {
+    name: "Red",
+    color: "#cc1818"
+  }, {
+    name: "Green",
+    color: "#46b450"
+  }, {
+    name: "Yellow",
+    color: "#ffb900"
+  }, {
+    name: "Orange",
+    color: "#f56e28"
+  }, {
+    name: "Purple",
+    color: "#826eb4"
+  }];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "agc-slider-settings",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.__experimentalBoxControl, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.__experimentalBoxControl, {
         label: "Padding",
         values: padding,
         onChange: value => setAttributes({
           padding: value
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "agc-horizontal-alignment",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
           children: "Horizontal Alignment"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ButtonGroup, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ButtonGroup, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
             isPrimary: horizontalAlignment === "left",
             onClick: () => updateHorizontalAlignment("left"),
             title: "Left",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
               class: "fas fa-align-left"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
             isPrimary: horizontalAlignment === "center",
             onClick: () => updateHorizontalAlignment("center"),
             title: "Center",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
               class: "fas fa-align-center"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
             isPrimary: horizontalAlignment === "right",
             onClick: () => updateHorizontalAlignment("right"),
             title: "Right",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
               class: "fas fa-align-right"
             })
           })]
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "agc-vertical-alignment",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
           children: "Vertical Alignment"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ButtonGroup, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ButtonGroup, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
             isPrimary: verticalAlignment === "top",
             onClick: () => updateVerticalAlignment("top"),
             title: "Top",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
               className: "fas fa-long-arrow-alt-up"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
             isPrimary: verticalAlignment === "center",
             onClick: () => updateVerticalAlignment("center"),
             title: "Center",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
               className: "fa-solid fa-arrows-up-down"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.Button, {
             isPrimary: verticalAlignment === "bottom",
             onClick: () => updateVerticalAlignment("bottom"),
             title: "Bottom",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
               className: "fa-solid fa-long-arrow-alt-down"
             })
           })]
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
-        label: "Height",
-        value: height,
-        onChange: value => setAttributes({
-          height: value
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
-        label: "Unit",
-        value: unit,
-        options: [{
-          label: "Pixels (px)",
-          value: "px"
-        }, {
-          label: "Em",
-          value: "em"
-        }, {
-          label: "Percent (%)",
-          value: "%"
-        }, {
-          label: "Viewport Height (vh)",
-          value: "vh"
-        }],
-        onChange: value => setAttributes({
-          unit: value
-        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "agc-slider-height",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+          label: "Height",
+          value: sliderHeight,
+          onChange: value => setAttributes({
+            sliderHeight: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+          label: "Slider Height Unit",
+          value: unit,
+          options: [{
+            label: "Pixels (px)",
+            value: "px"
+          }, {
+            label: "Em",
+            value: "em"
+          }, {
+            label: "Percent (%)",
+            value: "%"
+          }, {
+            label: "Viewport Height (vh)",
+            value: "vh"
+          }],
+          onChange: value => setAttributes({
+            unit: value
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "agc-slider-width",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+          label: "Slider Width",
+          value: sliderWidth,
+          onChange: value => setAttributes({
+            sliderWidth: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+          label: "Slider Width Unit",
+          value: unit,
+          options: [{
+            label: "Pixels (px)",
+            value: "px"
+          }, {
+            label: "Em",
+            value: "em"
+          }, {
+            label: "Percent (%)",
+            value: "%"
+          }, {
+            label: "Viewport Height (vh)",
+            value: "vh"
+          }],
+          onChange: value => setAttributes({
+            unit: value
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "agc-slider-gap",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+          label: "Gap",
+          value: gap,
+          onChange: value => setAttributes({
+            gap: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+          label: "Slider Gap Unit",
+          value: unit,
+          options: [{
+            label: "Pixels (px)",
+            value: "px"
+          }, {
+            label: "Em",
+            value: "em"
+          }, {
+            label: "Percent (%)",
+            value: "%"
+          }, {
+            label: "Viewport Height (vh)",
+            value: "vh"
+          }],
+          onChange: value => setAttributes({
+            unit: value
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "agc-title-container",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: "Sub Title Color"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ColorPalette, {
+          label: "Sub Title Color",
+          colors: colors,
+          value: subtitleColor,
+          onChange: value => setAttributes({
+            subtitleColor: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.PanelBody, {
+          title: "Subtitle Typography",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
+            value: subtitleFontFamily,
+            onChange: value => setAttributes({
+              subtitleFontFamily: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Font Weight",
+            value: subtitleFontWeight,
+            options: [{
+              label: "Default",
+              value: ""
+            }, {
+              label: "100",
+              value: "100"
+            }, {
+              label: "200",
+              value: "200"
+            }, {
+              label: "300",
+              value: "300"
+            }, {
+              label: "400",
+              value: "400"
+            }, {
+              label: "500",
+              value: "500"
+            }, {
+              label: "600",
+              value: "600"
+            }, {
+              label: "700",
+              value: "700"
+            }, {
+              label: "800",
+              value: "800"
+            }, {
+              label: "900",
+              value: "900"
+            }],
+            onChange: value => setAttributes({
+              subtitleFontWeight: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Text Transform",
+            value: subtitleTextTransform,
+            options: [{
+              label: "None",
+              value: "none"
+            }, {
+              label: "Uppercase",
+              value: "uppercase"
+            }, {
+              label: "Lowercase",
+              value: "lowercase"
+            }, {
+              label: "Capitalize",
+              value: "capitalize"
+            }],
+            onChange: value => setAttributes({
+              subtitleTextTransform: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Font Style",
+            value: subtitleFontStyle,
+            options: [{
+              label: "Normal",
+              value: "normal"
+            }, {
+              label: "Italic",
+              value: "italic"
+            }],
+            onChange: value => setAttributes({
+              subtitleFontStyle: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Text Decoration",
+            value: subtitleTextDecoration,
+            options: [{
+              label: "None",
+              value: "none"
+            }, {
+              label: "Underline",
+              value: "underline"
+            }, {
+              label: "Line Through",
+              value: "line-through"
+            }, {
+              label: "Overline",
+              value: "overline"
+            }],
+            onChange: value => setAttributes({
+              subtitleTextDecoration: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Line Height",
+            value: subtitleLineHeight,
+            onChange: value => setAttributes({
+              subtitleLineHeight: value
+            }),
+            min: 1,
+            max: 10,
+            step: 0.1
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Letter Spacing",
+            value: subtitleLetterSpacing,
+            onChange: value => setAttributes({
+              subtitleLetterSpacing: value
+            }),
+            min: 1,
+            max: 10,
+            step: 0.1
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Word Spacing",
+            value: subtitleWordSpacing,
+            onChange: value => setAttributes({
+              subtitleWordSpacing: value
+            }),
+            min: 0,
+            max: 20,
+            step: 0.5
+          })]
+        })]
       })]
     })
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContentDesignSettings);
+
+/***/ }),
+
+/***/ "./src/components/Settings/GoogleFontsPicker.js":
+/*!******************************************************!*\
+  !*** ./src/components/Settings/GoogleFontsPicker.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+const GoogleFontsPicker = ({
+  value,
+  onChange
+}) => {
+  const [fonts, setFonts] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([{
+    label: "Default",
+    value: "inherit"
+  }]);
+  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
+    fetch("https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBgSgk9ol_8AwY9pnetoR2_KBY7GJlxnLE&sort=popularity").then(res => res.json()).then(data => {
+      const fontOptions = data.items.slice(0, 50).map(font => ({
+        label: font.family,
+        value: font.family
+      }));
+      setFonts(prev => [...prev, ...fontOptions]);
+    });
+  }, []);
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+    label: "Font Family",
+    value: value,
+    options: fonts,
+    onChange: onChange
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GoogleFontsPicker);
 
 /***/ }),
 

@@ -13,7 +13,16 @@
 		"align": [
 			"wide",
 			"full"
-		]
+		],
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"textTransform": true,
+			"fontStyle": true,
+			"textDecoration": true
+		}
 	},
 	"attributes": {
 		"slides": {
@@ -130,6 +139,16 @@
 			"type": "string",
 			"default": "400px"
 		},
+		"unit": {
+			"type": "string",
+			"default": "px",
+			"enum": [
+				"px",
+				"em",
+				"%",
+				"vh"
+			]
+		},
 		"sliderWidth": {
 			"type": "string",
 			"default": "100%"
@@ -140,21 +159,39 @@
 		},
 		"subtitleColor": {
 			"type": "string",
-			"default": "#ffffff"
+			"default": "#000000"
 		},
-		"subtitleTypography": {
-			"type": "object",
-			"default": {
-				"fontFamily": "inherit",
-				"fontSize": "16px",
-				"fontWeight": "400",
-				"textTransform": "none",
-				"fontStyle": "normal",
-				"textDecoration": "none",
-				"lineHeight": "1.5",
-				"letterSpacing": "0px",
-				"wordSpacing": "0px"
-			}
+		"subtitleFontFamily": {
+            "type": "string",
+            "default": "inherit"
+        },
+		"subtitleFontSize": {
+			"type": "string",
+			"default": "16px"
+		},
+		"subtitleLineHeight":{
+			"type" : "number",
+			"default": 1.5
+		},
+		"subtitleLetterSpacing":{
+			"type":"number",
+			"default":1.5
+		},
+		"subtitleWordSpacing":{
+			"type":"number",
+			"default":1
+		},
+		"subtitleFontWeight":{
+			"type":"string",
+			"default": "400"
+		},
+		"subtitleTextTransform":{
+			"type":"string",
+			"default":"none"
+		},
+		"subtitleTextDecoration":{
+			"type":"string",
+			"default": "none"
 		},
 		"titleColor": {
 			"type": "string",

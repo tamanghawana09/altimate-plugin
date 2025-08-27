@@ -39,6 +39,15 @@ return array(
 			'align' => array(
 				'wide',
 				'full'
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'fontWeight' => true,
+				'letterSpacing' => true,
+				'textTransform' => true,
+				'fontStyle' => true,
+				'textDecoration' => true
 			)
 		),
 		'attributes' => array(
@@ -158,6 +167,16 @@ return array(
 				'type' => 'string',
 				'default' => '400px'
 			),
+			'unit' => array(
+				'type' => 'string',
+				'default' => 'px',
+				'enum' => array(
+					'px',
+					'em',
+					'%',
+					'vh'
+				)
+			),
 			'sliderWidth' => array(
 				'type' => 'string',
 				'default' => '100%'
@@ -168,21 +187,39 @@ return array(
 			),
 			'subtitleColor' => array(
 				'type' => 'string',
-				'default' => '#ffffff'
+				'default' => '#000000'
 			),
-			'subtitleTypography' => array(
-				'type' => 'object',
-				'default' => array(
-					'fontFamily' => 'inherit',
-					'fontSize' => '16px',
-					'fontWeight' => '400',
-					'textTransform' => 'none',
-					'fontStyle' => 'normal',
-					'textDecoration' => 'none',
-					'lineHeight' => '1.5',
-					'letterSpacing' => '0px',
-					'wordSpacing' => '0px'
-				)
+			'subtitleFontFamily' => array(
+				'type' => 'string',
+				'default' => 'inherit'
+			),
+			'subtitleFontSize' => array(
+				'type' => 'string',
+				'default' => '16px'
+			),
+			'subtitleLineHeight' => array(
+				'type' => 'number',
+				'default' => 1.5
+			),
+			'subtitleLetterSpacing' => array(
+				'type' => 'number',
+				'default' => 1.5
+			),
+			'subtitleWordSpacing' => array(
+				'type' => 'number',
+				'default' => 1
+			),
+			'subtitleFontWeight' => array(
+				'type' => 'string',
+				'default' => '400'
+			),
+			'subtitleTextTransform' => array(
+				'type' => 'string',
+				'default' => 'none'
+			),
+			'subtitleTextDecoration' => array(
+				'type' => 'string',
+				'default' => 'none'
 			),
 			'titleColor' => array(
 				'type' => 'string',
