@@ -9,12 +9,18 @@
  */
 :root {
   --primary-color: #41C5B8;
+  --panel-bg-color: #f7f7f7;
+  --panel-text-color: #333;
 }
 
 .wp-block-create-block-altimate-gutenberg-carousel {
   background-color: var(--primary-color);
   color: #fff;
   padding: 2px;
+}
+
+.wp-block-editor .components-panel__body {
+  overflow-y: hidden;
 }
 
 .altimate-gutenberg-tabs-header button {
@@ -35,12 +41,6 @@
 
 .inner-tab-buttons button.active {
   font-weight: bold;
-}
-
-.agc-slider-settings {
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  padding: 20px 10px 20px 10px;
 }
 
 .agc-skin-container {

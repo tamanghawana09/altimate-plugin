@@ -1,11 +1,12 @@
 import { SelectControl } from "@wordpress/components";
 import { useEffect, useState } from "react";
 
+
 const GoogleFontsPicker = ({ value, onChange }) => {
 	const [fonts, setFonts] = useState([{ label: "Default", value: "inherit" }]);
 	useEffect(() => {
 		fetch(
-			"https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBgSgk9ol_8AwY9pnetoR2_KBY7GJlxnLE&sort=popularity",
+			`https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBgSgk9ol_8AwY9pnetoR2_KBY7GJlxnLE&sort=popularity`,
 		)
 			.then((res) => res.json())
 			.then((data) => {

@@ -221,6 +221,14 @@ return array(
 				'type' => 'string',
 				'default' => 'none'
 			),
+			'subtitleAnimationColor' => array(
+				'type' => 'string',
+				'defaut' => '#000000'
+			),
+			'subtitleDotColor' => array(
+				'type' => 'string',
+				'defaut' => '#000000'
+			),
 			'titleColor' => array(
 				'type' => 'string',
 				'default' => '#ffffff'

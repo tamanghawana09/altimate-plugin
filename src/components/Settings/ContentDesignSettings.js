@@ -11,6 +11,7 @@ import {
 	FontSizePicker,
 	Card,
 	PanelBody,
+	CardBody,
 } from "@wordpress/components";
 import { useEffect, useState } from "react";
 import GoogleFontsPicker from "./GoogleFontsPicker";
@@ -33,6 +34,8 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 		subtitleTextTransform,
 		subtitleTextDecoration,
 		subtitleWordSpacing,
+		subtitleAnimationColor,
+		subtitleDotColor,
 	} = attributes;
 
 	const updateHorizontalAlignment = (newAlign) => {
@@ -167,7 +170,8 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 						onChange={(value) => setAttributes({ unit: value })}
 					/>
 				</div>
-				<div className="agc-title-container">
+				<div className="agc-subtitle-container">
+					<hr></hr>
 					<p>Sub Title Color</p>
 					<ColorPalette
 						label="Sub Title Color"
@@ -175,16 +179,17 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 						value={subtitleColor}
 						onChange={(value) => setAttributes({ subtitleColor: value })}
 					/>
-					<PanelBody title="Subtitle Typography">
+					<PanelBody title="Subtitle Settings" initialOpen={false}>
 						<GoogleFontsPicker
 							value={subtitleFontFamily}
 							onChange={(value) => setAttributes({ subtitleFontFamily: value })}
 						/>
-						{/* <FontSizePicker
+						<label>Font Size</label>
+						<FontSizePicker
 							value={subtitleFontSize}
 							onChange={(size) => setAttributes({ subtitleFontSize: size })}
 							withSlider
-						/> */}
+						/>
 						<SelectControl
 							label="Font Weight"
 							value={subtitleFontWeight}
@@ -262,10 +267,24 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 								setAttributes({ subtitleWordSpacing: value })
 							}
 							min={0}
-							max={20}
-							step={0.5}
+							max={50}
+							step={1}
 						/>
 					</PanelBody>
+					<hr></hr>
+					<p>Subtitle Animation Color</p>
+					<ColorPalette
+						colors={colors}
+						value={subtitleAnimationColor}
+						onChange={(value) => setAttributes({ subtitleAnimationColor: value })}
+					/>
+					<p>Subtitle Dot Color</p>
+					<ColorPalette
+						colors={colors}
+						value={subtitleDotColor}
+						onChange={(value) => setAttributes({ subtitleDotColor:value })}
+					/>
+					<hr></hr>
 				</div>
 			</div>
 		</>

@@ -97,10 +97,34 @@ function altimate_gutenberg_enqueue_google_fonts() {
 add_action( 'enqueue_block_assets', 'altimate_gutenberg_enqueue_google_fonts' );
 
 function altimate_enqueue_selected_google_font() {
-    $font = get_post_meta( get_the_ID(), 'subtitleFontFamily', true ); // or block attribute
+    $font = get_post_meta( get_the_ID(), 'subtitleFontFamily', true ); 
     if ( $font && $font !== 'inherit' ) {
         $font_url = 'https://fonts.googleapis.com/css2?family=' . str_replace( ' ', '+', $font );
         wp_enqueue_style( 'subtitle-google-font', $font_url, [], null );
     }
 }
 add_action( 'wp_enqueue_scripts', 'altimate_enqueue_selected_google_font' );
+
+
+
+function altimate_gutenberg_block_enqueue_assets() {
+    $handle = 'altimate-block-editor';
+
+    wp_enqueue_script(
+        $handle,
+        plugins_url( 'build/index.js', __FILE__ ),
+        array( 'wp-blocks', 'wp-element', 'wp-editor' ),
+        '1.0.0'
+    );
+
+    
+    wp_localize_script(
+        $handle,
+        'AltimateBlockConfig',
+        array(
+            'googleFontsApiKey' => getenv('GOOGLE_FONTS_API_KEY') ?: ''
+        )
+    );
+}
+add_action( 'enqueue_block_editor_assets', 'altimate_gutenberg_block_enqueue_assets' );
+

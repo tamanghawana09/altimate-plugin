@@ -193,6 +193,14 @@
       "type": "string",
       "default": "none"
     },
+    "subtitleAnimationColor": {
+      "type": "string",
+      "defaut": "#000000"
+    },
+    "subtitleDotColor": {
+      "type": "string",
+      "defaut": "#000000"
+    },
     "titleColor": {
       "type": "string",
       "default": "#ffffff"

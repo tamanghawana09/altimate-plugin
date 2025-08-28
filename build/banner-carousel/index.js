@@ -8,7 +8,7 @@
   \****************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleFontFamily":{"type":"string","default":"inherit"},"subtitleFontSize":{"type":"string","default":"16px"},"subtitleLineHeight":{"type":"number","default":1.5},"subtitleLetterSpacing":{"type":"number","default":1.5},"subtitleWordSpacing":{"type":"number","default":1},"subtitleFontWeight":{"type":"string","default":"400"},"subtitleTextTransform":{"type":"string","default":"none"},"subtitleTextDecoration":{"type":"string","default":"none"},"titleColor":{"type":"string","default":"#ffffff"},"titleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"48px","fontWeight":"700","textTransform":"uppercase","fontStyle":"normal","textDecoration":"none","lineHeight":"1.2","letterSpacing":"2px","wordSpacing":"0px"}},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleFontFamily":{"type":"string","default":"inherit"},"subtitleFontSize":{"type":"string","default":"16px"},"subtitleLineHeight":{"type":"number","default":1.5},"subtitleLetterSpacing":{"type":"number","default":1.5},"subtitleWordSpacing":{"type":"number","default":1},"subtitleFontWeight":{"type":"string","default":"400"},"subtitleTextTransform":{"type":"string","default":"none"},"subtitleTextDecoration":{"type":"string","default":"none"},"subtitleAnimationColor":{"type":"string","defaut":"#000000"},"subtitleDotColor":{"type":"string","defaut":"#000000"},"titleColor":{"type":"string","default":"#ffffff"},"titleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"48px","fontWeight":"700","textTransform":"uppercase","fontStyle":"normal","textDecoration":"none","lineHeight":"1.2","letterSpacing":"2px","wordSpacing":"0px"}},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
@@ -519,7 +519,9 @@ const ContentDesignSettings = ({
     subtitleLetterSpacing,
     subtitleTextTransform,
     subtitleTextDecoration,
-    subtitleWordSpacing
+    subtitleWordSpacing,
+    subtitleAnimationColor,
+    subtitleDotColor
   } = attributes;
   const updateHorizontalAlignment = newAlign => {
     setAttributes({
@@ -706,8 +708,8 @@ const ContentDesignSettings = ({
           })
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "agc-title-container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+        className: "agc-subtitle-container",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
           children: "Sub Title Color"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ColorPalette, {
           label: "Sub Title Color",
@@ -717,12 +719,21 @@ const ContentDesignSettings = ({
             subtitleColor: value
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.PanelBody, {
-          title: "Subtitle Typography",
+          title: "Subtitle Settings",
+          initialOpen: false,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
             value: subtitleFontFamily,
             onChange: value => setAttributes({
               subtitleFontFamily: value
             })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+            children: "Font Size"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.FontSizePicker, {
+            value: subtitleFontSize,
+            onChange: size => setAttributes({
+              subtitleFontSize: size
+            }),
+            withSlider: true
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Font Weight",
             value: subtitleFontWeight,
@@ -836,10 +847,26 @@ const ContentDesignSettings = ({
               subtitleWordSpacing: value
             }),
             min: 0,
-            max: 20,
-            step: 0.5
+            max: 50,
+            step: 1
           })]
-        })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: "Subtitle Animation Color"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ColorPalette, {
+          colors: colors,
+          value: subtitleAnimationColor,
+          onChange: value => setAttributes({
+            subtitleAnimationColor: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: "Subtitle Dot Color"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ColorPalette, {
+          colors: colors,
+          value: subtitleDotColor,
+          onChange: value => setAttributes({
+            subtitleDotColor: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {})]
       })]
     })
   });
@@ -876,7 +903,7 @@ const GoogleFontsPicker = ({
     value: "inherit"
   }]);
   (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
-    fetch("https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBgSgk9ol_8AwY9pnetoR2_KBY7GJlxnLE&sort=popularity").then(res => res.json()).then(data => {
+    fetch(`https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBgSgk9ol_8AwY9pnetoR2_KBY7GJlxnLE&sort=popularity`).then(res => res.json()).then(data => {
       const fontOptions = data.items.slice(0, 50).map(font => ({
         label: font.family,
         value: font.family
