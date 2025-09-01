@@ -161,99 +161,48 @@
 			"type": "string",
 			"default": "#000000"
 		},
-		"subtitleFontFamily": {
-            "type": "string",
-            "default": "inherit"
-        },
-		"subtitleFontSize": {
-			"type": "string",
-			"default": "16px"
-		},
-		"subtitleLineHeight":{
-			"type" : "number",
-			"default": 1.5
-		},
-		"subtitleLetterSpacing":{
-			"type":"number",
-			"default":1.5
-		},
-		"subtitleWordSpacing":{
-			"type":"number",
-			"default":1
-		},
-		"subtitleFontWeight":{
-			"type":"string",
-			"default": "400"
-		},
-		"subtitleTextTransform":{
-			"type":"string",
-			"default":"none"
-		},
-		"subtitleFontStyle": {
-      		"type": "string",
-      		"default": "normal"
-    	},
-		"subtitleTextDecoration":{
-			"type":"string",
-			"default": "none"
-		},
-		"subtitleAnimationColor":{
-			"type":"string",
-			"defaut":"#000000"
-		},
-		"subtitleDotColor":{
-			"type":"string",
-			"defaut":"#000000"
+		"subtitleTypography":{
+			"type":"object",
+			"default":{
+				"fontFamily":"inherit",
+				"fontSize":"14px",
+				"fontWeight":"400",
+				"textTransform":"none",
+				"fontStyle":"normal",
+				"textDecoration": "none",
+				"lineHeight": "1.6",
+				"letterSpacing": "0px",
+				"wordSpacing": "0px"
+			}
 		},
 		"titleColor": {
 			"type": "string",
 			"default": "#ffffff"
 		},
-		"titleFontFamily":{
-			"type":"string",
-			"default":"inherit"
-		},
-		"titleFontSize":{
-			"type": "string",
-			"default": "16px"
-		},
-		"titleFontWeight":{
-			"type":"string",
-			"default": "400"
-		},
-		"titleTextTransform":{
-			"type":"string",
-			"default":"none"
-		},
-		"titleFontStyle":{
-			"type":"string",
-			"default":"normal"
-		},
-		"titleTextDecoration":{
-			"type":"string",
-			"default": "none"
-		},
-		"titleLineHeight":{
-			"type" : "number",
-			"default": 1.5
-		},
-		"titleLetterSpacing":{
-			"type":"number",
-			"default":1.5
-		},
-		"titleWordSpacing":{
-			"type":"number",
-			"default":1
+		"titleTypography":{
+			"type":"object",
+			"default":{
+				"fontFamily":"inherit",
+				"fontSize": "14px",
+				"fontWeight":"400",
+				"textTransform":"none",
+				"fontStyle":"normal",
+				"textDecoration": "none",
+				"lineHeight": "1.6",
+				"letterSpacing": "0px",
+				"wordSpacing": "0px"
+			}
 		},
 		"contentColor": {
 			"type": "string",
 			"default": "#ffffff"
 		},
+		
 		"contentTypography": {
 			"type": "object",
 			"default": {
 				"fontFamily": "inherit",
-				"fontSize": "18px",
+				"fontSize": "14px",
 				"fontWeight": "400",
 				"textTransform": "none",
 				"fontStyle": "normal",

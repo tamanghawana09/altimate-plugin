@@ -189,89 +189,37 @@ return array(
 				'type' => 'string',
 				'default' => '#000000'
 			),
-			'subtitleFontFamily' => array(
-				'type' => 'string',
-				'default' => 'inherit'
-			),
-			'subtitleFontSize' => array(
-				'type' => 'string',
-				'default' => '16px'
-			),
-			'subtitleLineHeight' => array(
-				'type' => 'number',
-				'default' => 1.5
-			),
-			'subtitleLetterSpacing' => array(
-				'type' => 'number',
-				'default' => 1.5
-			),
-			'subtitleWordSpacing' => array(
-				'type' => 'number',
-				'default' => 1
-			),
-			'subtitleFontWeight' => array(
-				'type' => 'string',
-				'default' => '400'
-			),
-			'subtitleTextTransform' => array(
-				'type' => 'string',
-				'default' => 'none'
-			),
-			'subtitleFontStyle' => array(
-				'type' => 'string',
-				'default' => 'normal'
-			),
-			'subtitleTextDecoration' => array(
-				'type' => 'string',
-				'default' => 'none'
-			),
-			'subtitleAnimationColor' => array(
-				'type' => 'string',
-				'defaut' => '#000000'
-			),
-			'subtitleDotColor' => array(
-				'type' => 'string',
-				'defaut' => '#000000'
+			'subtitleTypography' => array(
+				'type' => 'object',
+				'default' => array(
+					'fontFamily' => 'inherit',
+					'fontSize' => '14px',
+					'fontWeight' => '400',
+					'textTransform' => 'none',
+					'fontStyle' => 'normal',
+					'textDecoration' => 'none',
+					'lineHeight' => '1.6',
+					'letterSpacing' => '0px',
+					'wordSpacing' => '0px'
+				)
 			),
 			'titleColor' => array(
 				'type' => 'string',
 				'default' => '#ffffff'
 			),
-			'titleFontFamily' => array(
-				'type' => 'string',
-				'default' => 'inherit'
-			),
-			'titleFontSize' => array(
-				'type' => 'string',
-				'default' => '16px'
-			),
-			'titleFontWeight' => array(
-				'type' => 'string',
-				'default' => '400'
-			),
-			'titleTextTransform' => array(
-				'type' => 'string',
-				'default' => 'none'
-			),
-			'titleFontStyle' => array(
-				'type' => 'string',
-				'default' => 'normal'
-			),
-			'titleTextDecoration' => array(
-				'type' => 'string',
-				'default' => 'none'
-			),
-			'titleLineHeight' => array(
-				'type' => 'number',
-				'default' => 1.5
-			),
-			'titleLetterSpacing' => array(
-				'type' => 'number',
-				'default' => 1.5
-			),
-			'titleWordSpacing' => array(
-				'type' => 'number',
-				'default' => 1
+			'titleTypography' => array(
+				'type' => 'object',
+				'default' => array(
+					'fontFamily' => 'inherit',
+					'fontSize' => '14px',
+					'fontWeight' => '400',
+					'textTransform' => 'none',
+					'fontStyle' => 'normal',
+					'textDecoration' => 'none',
+					'lineHeight' => '1.6',
+					'letterSpacing' => '0px',
+					'wordSpacing' => '0px'
+				)
 			),
 			'contentColor' => array(
 				'type' => 'string',
@@ -281,7 +229,7 @@ return array(
 				'type' => 'object',
 				'default' => array(
 					'fontFamily' => 'inherit',
-					'fontSize' => '18px',
+					'fontSize' => '14px',
 					'fontWeight' => '400',
 					'textTransform' => 'none',
 					'fontStyle' => 'normal',

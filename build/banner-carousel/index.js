@@ -8,7 +8,7 @@
   \****************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleFontFamily":{"type":"string","default":"inherit"},"subtitleFontSize":{"type":"string","default":"16px"},"subtitleLineHeight":{"type":"number","default":1.5},"subtitleLetterSpacing":{"type":"number","default":1.5},"subtitleWordSpacing":{"type":"number","default":1},"subtitleFontWeight":{"type":"string","default":"400"},"subtitleTextTransform":{"type":"string","default":"none"},"subtitleFontStyle":{"type":"string","default":"normal"},"subtitleTextDecoration":{"type":"string","default":"none"},"subtitleAnimationColor":{"type":"string","defaut":"#000000"},"subtitleDotColor":{"type":"string","defaut":"#000000"},"titleColor":{"type":"string","default":"#ffffff"},"titleFontFamily":{"type":"string","default":"inherit"},"titleFontSize":{"type":"string","default":"16px"},"titleFontWeight":{"type":"string","default":"400"},"titleTextTransform":{"type":"string","default":"none"},"titleFontStyle":{"type":"string","default":"normal"},"titleTextDecoration":{"type":"string","default":"none"},"titleLineHeight":{"type":"number","default":1.5},"titleLetterSpacing":{"type":"number","default":1.5},"titleWordSpacing":{"type":"number","default":1},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"titleColor":{"type":"string","default":"#ffffff"},"titleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
@@ -453,8 +453,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Settings_ContentDesignSettings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Settings/ContentDesignSettings */ "./src/components/Settings/ContentDesignSettings.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Settings_ButtonDesignSettings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Settings/ButtonDesignSettings */ "./src/components/Settings/ButtonDesignSettings.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 
@@ -463,17 +465,52 @@ const StylePanel = ({
   attributes,
   setAttributes
 }) => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.PanelBody, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.PanelBody, {
       title: "Content Design Settings",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Settings_ContentDesignSettings__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      initialOpen: true,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Settings_ContentDesignSettings__WEBPACK_IMPORTED_MODULE_2__["default"], {
         attributes: attributes,
         setAttributes: setAttributes
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.PanelBody, {
+      title: "Button Design Settings",
+      initialOpen: false,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Settings_ButtonDesignSettings__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        attributes: attributes,
+        setAttributes: setAttributes
+      })
+    })]
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (StylePanel);
+
+/***/ }),
+
+/***/ "./src/components/Settings/ButtonDesignSettings.js":
+/*!*********************************************************!*\
+  !*** ./src/components/Settings/ButtonDesignSettings.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+const ButtonDesignSettings = ({
+  attributes,
+  setAttributes
+}) => {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+      children: "Button Design Settings here"
+    })
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ButtonDesignSettings);
 
 /***/ }),
 
@@ -733,21 +770,27 @@ const ContentDesignSettings = ({
           title: "Subtitle Typography Settings",
           initialOpen: false,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            value: subtitleFontFamily,
+            value: attributes.subtitleTypography.fontFamily,
             onChange: value => setAttributes({
-              subtitleFontFamily: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                fontFamily: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
             children: "Font Size"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.FontSizePicker, {
-            value: subtitleFontSize,
+            value: attributes.subtitleTypography.fontSize,
             onChange: size => setAttributes({
-              subtitleFontSize: size
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                fontSize: size
+              }
             }),
             withSlider: true
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Font Weight",
-            value: subtitleFontWeight,
+            value: attributes.subtitleTypography.fontWeight,
             options: [{
               label: "Default",
               value: ""
@@ -780,11 +823,14 @@ const ContentDesignSettings = ({
               value: "900"
             }],
             onChange: value => setAttributes({
-              subtitleFontWeight: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                fontWeight: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Text Transform",
-            value: subtitleTextTransform,
+            value: attributes.subtitleTypography.textTransform,
             options: [{
               label: "None",
               value: "none"
@@ -799,11 +845,14 @@ const ContentDesignSettings = ({
               value: "capitalize"
             }],
             onChange: value => setAttributes({
-              subtitleTextTransform: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                textTranform: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Font Style",
-            value: subtitleFontStyle,
+            value: attributes.subtitleTypography.fontStyle,
             options: [{
               label: "Normal",
               value: "normal"
@@ -812,11 +861,14 @@ const ContentDesignSettings = ({
               value: "italic"
             }],
             onChange: value => setAttributes({
-              subtitleFontStyle: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                fontStyle: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Text Decoration",
-            value: subtitleTextDecoration,
+            value: attributes.subtitleTypography.textDecoration,
             options: [{
               label: "None",
               value: "none"
@@ -831,31 +883,43 @@ const ContentDesignSettings = ({
               value: "overline"
             }],
             onChange: value => setAttributes({
-              subtitleTextDecoration: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                textDecoration: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
             label: "Line Height",
-            value: subtitleLineHeight,
+            value: attributes.subtitleTypography.lineHeight,
             onChange: value => setAttributes({
-              subtitleLineHeight: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                lineHeight: value
+              }
             }),
             min: 1,
             max: 10,
             step: 0.1
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
             label: "Letter Spacing",
-            value: subtitleLetterSpacing,
+            value: attributes.subtitleTypography.letterSpacing,
             onChange: value => setAttributes({
-              subtitleLetterSpacing: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                letterSpacing: value
+              }
             }),
             min: 1,
             max: 10,
             step: 0.1
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
             label: "Word Spacing",
-            value: subtitleWordSpacing,
+            value: attributes.subtitleTypography.wordSpacing,
             onChange: value => setAttributes({
-              subtitleWordSpacing: value
+              subtitleTypography: {
+                ...attributes.subtitleTypography,
+                wordSpacing: value
+              }
             }),
             min: 0,
             max: 50,
@@ -889,21 +953,27 @@ const ContentDesignSettings = ({
           title: "Title Typography Settings",
           initialOpen: false,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            value: titleFontFamily,
+            value: attributes.titleTypography.fontFamily,
             onChange: value => setAttributes({
-              titleFontFamily: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                fontFamily: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
             children: "Font Size"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.FontSizePicker, {
-            value: titleFontSize,
+            value: attributes.titleTypography.fontSize,
             onChange: size => setAttributes({
-              titleFontSize: size
+              titleTypography: {
+                ...attributes.titleTypography,
+                fontSize: size
+              }
             }),
             withSlider: true
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Font Weight",
-            value: titleFontWeight,
+            value: attributes.titleTypography.fontWeight,
             options: [{
               label: "Default",
               value: ""
@@ -936,11 +1006,14 @@ const ContentDesignSettings = ({
               value: "900"
             }],
             onChange: value => setAttributes({
-              titleFontWeight: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                fontWeight: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Text Transform",
-            value: titleTextTransform,
+            value: attributes.titleTypography.textTranform,
             options: [{
               label: "None",
               value: "none"
@@ -955,11 +1028,14 @@ const ContentDesignSettings = ({
               value: "capitalize"
             }],
             onChange: value => setAttributes({
-              titleTextTransform: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                textTranform: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Font Style",
-            value: titleFontStyle,
+            value: attributes.titleTypography.fontStyle,
             options: [{
               label: "Normal",
               value: "normal"
@@ -968,11 +1044,14 @@ const ContentDesignSettings = ({
               value: "italic"
             }],
             onChange: value => setAttributes({
-              titleFontStyle: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                fontStyle: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
             label: "Text Decoration",
-            value: titleTextDecoration,
+            value: attributes.titleTypography.textDecoration,
             options: [{
               label: "None",
               value: "none"
@@ -987,31 +1066,43 @@ const ContentDesignSettings = ({
               value: "overline"
             }],
             onChange: value => setAttributes({
-              titleTextDecoration: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                textDecoration: value
+              }
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
             label: "Line Height",
-            value: titleLineHeight,
+            value: attributes.titleTypography.lineHeight,
             onChange: value => setAttributes({
-              titleLineHeight: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                lineHeight: value
+              }
             }),
             min: 1,
             max: 10,
             step: 0.1
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
             label: "Letter Spacing",
-            value: titleLetterSpacing,
+            value: attributes.titleTypography.letterSpacing,
             onChange: value => setAttributes({
-              titleLetterSpacing: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                letterSpacing: value
+              }
             }),
             min: 1,
             max: 10,
             step: 0.1
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
             label: "Word Spacing",
-            value: titleWordSpacing,
+            value: attributes.titleTypography.wordSpacing,
             onChange: value => setAttributes({
-              titleWordSpacing: value
+              titleTypography: {
+                ...attributes.titleTypography,
+                wordSpacing: value
+              }
             }),
             min: 0,
             max: 50,
