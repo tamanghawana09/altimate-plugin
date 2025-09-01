@@ -36,6 +36,17 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 		subtitleWordSpacing,
 		subtitleAnimationColor,
 		subtitleDotColor,
+		titleColor,
+		titleFontFamily,
+		titleFontSize,
+		titleFontWeight,
+		titleTextTransform,
+		titleFontStyle,
+		titleTextDecoration,
+		titleLineHeight,
+		titleLetterSpacing,
+		titleWordSpacing,
+		contentColor,
 	} = attributes;
 
 	const updateHorizontalAlignment = (newAlign) => {
@@ -179,7 +190,7 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 						value={subtitleColor}
 						onChange={(value) => setAttributes({ subtitleColor: value })}
 					/>
-					<PanelBody title="Subtitle Settings" initialOpen={false}>
+					<PanelBody title="Subtitle Typography Settings" initialOpen={false}>
 						<GoogleFontsPicker
 							value={subtitleFontFamily}
 							onChange={(value) => setAttributes({ subtitleFontFamily: value })}
@@ -285,6 +296,203 @@ const ContentDesignSettings = ({ attributes, setAttributes }) => {
 						onChange={(value) => setAttributes({ subtitleDotColor:value })}
 					/>
 					<hr></hr>
+					<p>Title Color</p>
+					<ColorPalette
+						colors={colors}
+						value={titleColor}
+						onChange={(value) => setAttributes({ titleColor:value })} 
+					/>
+					<PanelBody title="Title Typography Settings" initialOpen={false}>
+						<GoogleFontsPicker
+							value={titleFontFamily}
+							onChange={(value) => setAttributes({ titleFontFamily: value })}
+						/>
+						<label>Font Size</label>
+						<FontSizePicker
+							value={titleFontSize}
+							onChange={(size) => setAttributes({ titleFontSize: size })}
+							withSlider
+						/>
+						<SelectControl
+							label="Font Weight"
+							value={titleFontWeight}
+							options={[
+								{ label: "Default", value: "" },
+								{ label: "100", value: "100" },
+								{ label: "200", value: "200" },
+								{ label: "300", value: "300" },
+								{ label: "400", value: "400" },
+								{ label: "500", value: "500" },
+								{ label: "600", value: "600" },
+								{ label: "700", value: "700" },
+								{ label: "800", value: "800" },
+								{ label: "900", value: "900" },
+							]}
+							onChange={(value) => setAttributes({ titleFontWeight: value })}
+						/>
+						<SelectControl
+							label="Text Transform"
+							value={titleTextTransform}
+							options={[
+								{ label: "None", value: "none" },
+								{ label: "Uppercase", value: "uppercase" },
+								{ label: "Lowercase", value: "lowercase" },
+								{ label: "Capitalize", value: "capitalize" },
+							]}
+							onChange={(value) =>
+								setAttributes({ titleTextTransform: value })
+							}
+						/>
+						<SelectControl
+							label="Font Style"
+							value={titleFontStyle}
+							options={[
+								{ label: "Normal", value: "normal" },
+								{ label: "Italic", value: "italic" },
+							]}
+							onChange={(value) => setAttributes({ titleFontStyle: value })}
+						/>
+						<SelectControl
+							label="Text Decoration"
+							value={titleTextDecoration}
+							options={[
+								{ label: "None", value: "none" },
+								{ label: "Underline", value: "underline" },
+								{ label: "Line Through", value: "line-through" },
+								{ label: "Overline", value: "overline" },
+							]}
+							onChange={(value) =>
+								setAttributes({ titleTextDecoration: value })
+							}
+						/>
+						<RangeControl
+							label="Line Height"
+							value={titleLineHeight}
+							onChange={(value) => setAttributes({ titleLineHeight: value })}
+							min={1}
+							max={10}
+							step={0.1}
+						/>
+						<RangeControl
+							label="Letter Spacing"
+							value={titleLetterSpacing}
+							onChange={(value) =>
+								setAttributes({ titleLetterSpacing: value })
+							}
+							min={1}
+							max={10}
+							step={0.1}
+						/>
+						<RangeControl
+							label="Word Spacing"
+							value={titleWordSpacing}
+							onChange={(value) =>
+								setAttributes({ titleWordSpacing: value })
+							}
+							min={0}
+							max={50}
+							step={1}
+						/>
+					</PanelBody>
+					<hr></hr>
+					<p>Content Color</p>
+					<ColorPalette
+						colors={colors}
+						value={contentColor}
+						onChange={(value) => setAttributes({ contentColor:value })} 
+					/>
+					<PanelBody title="Content Typography Settings" initialOpen={false}>
+						<GoogleFontsPicker
+							value={attributes.contentTypography.fontFamily}
+							onChange={(value) => setAttributes({ contentTypography:{...attributes.contentTypography, fontFamily: value  }})}
+						/>
+						<label>Font Size</label>
+						<FontSizePicker
+							value={attributes.contentTypography.fontSize}
+							onChange={(size) => setAttributes({ contentTypography:{...attributes.contentTypography, fontSize: size }})}
+							withSlider
+						/>
+						<SelectControl
+							label="Font Weight"
+							value={attributes.contentTypography.fontWeight}
+							options={[
+								{ label: "Default", value: "" },
+								{ label: "100", value: "100" },
+								{ label: "200", value: "200" },
+								{ label: "300", value: "300" },
+								{ label: "400", value: "400" },
+								{ label: "500", value: "500" },
+								{ label: "600", value: "600" },
+								{ label: "700", value: "700" },
+								{ label: "800", value: "800" },
+								{ label: "900", value: "900" },
+							]}
+							onChange={(value) => setAttributes({ contentTypography:{...attributes.contentTypography, fontWeight:value }})}
+						/>
+						<SelectControl
+							label="Text Transform"
+							value={attributes.contentTypography.textTranform}
+							options={[
+								{ label: "None", value: "none" },
+								{ label: "Uppercase", value: "uppercase" },
+								{ label: "Lowercase", value: "lowercase" },
+								{ label: "Capitalize", value: "capitalize" },
+							]}
+							onChange={(value) =>
+								setAttributes({ contentTypography:{...attributes.contentTypography, textTranform:value} })
+							}
+						/>
+						<SelectControl
+							label="Font Style"
+							value={attributes.contentTypography.fontStyle}
+							options={[
+								{ label: "Normal", value: "normal" },
+								{ label: "Italic", value: "italic" },
+							]}
+							onChange={(value) => setAttributes({ contentTypography:{...attributes.contentTypography, fontStyle:value} })}
+						/>
+						<SelectControl
+							label="Text Decoration"
+							value={attributes.contentTypography.textDecoration}
+							options={[
+								{ label: "None", value: "none" },
+								{ label: "Underline", value: "underline" },
+								{ label: "Line Through", value: "line-through" },
+								{ label: "Overline", value: "overline" },
+							]}
+							onChange={(value) =>
+								setAttributes({ contentTypography:{...attributes.contentTypography, textDecoration:value }})
+							}
+						/>
+						<RangeControl
+							label="Line Height"
+							value={attributes.contentTypography.lineHeight}
+							onChange={(value) => setAttributes({ contentTypography:{...attributes.contentTypography, lineHeight:value }})}
+							min={1}
+							max={10}
+							step={0.1}
+						/>
+						<RangeControl
+							label="Letter Spacing"
+							value={attributes.contentTypography.letterSpacing}
+							onChange={(value) =>
+								setAttributes({ contentTypography:{...attributes.contentTypography, letterSpacing:value} })
+							}
+							min={1}
+							max={10}
+							step={0.1}
+						/>
+						<RangeControl
+							label="Word Spacing"
+							value={attributes.contentTypography.wordSpacing}
+							onChange={(value) =>
+								setAttributes({ contentTypography:{...attributes.contentTypography, wordSpacing:value} })
+							}
+							min={0}
+							max={50}
+							step={1}
+						/>
+					</PanelBody>
 				</div>
 			</div>
 		</>

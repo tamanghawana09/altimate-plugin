@@ -217,6 +217,10 @@ return array(
 				'type' => 'string',
 				'default' => 'none'
 			),
+			'subtitleFontStyle' => array(
+				'type' => 'string',
+				'default' => 'normal'
+			),
 			'subtitleTextDecoration' => array(
 				'type' => 'string',
 				'default' => 'none'
@@ -233,19 +237,41 @@ return array(
 				'type' => 'string',
 				'default' => '#ffffff'
 			),
-			'titleTypography' => array(
-				'type' => 'object',
-				'default' => array(
-					'fontFamily' => 'inherit',
-					'fontSize' => '48px',
-					'fontWeight' => '700',
-					'textTransform' => 'uppercase',
-					'fontStyle' => 'normal',
-					'textDecoration' => 'none',
-					'lineHeight' => '1.2',
-					'letterSpacing' => '2px',
-					'wordSpacing' => '0px'
-				)
+			'titleFontFamily' => array(
+				'type' => 'string',
+				'default' => 'inherit'
+			),
+			'titleFontSize' => array(
+				'type' => 'string',
+				'default' => '16px'
+			),
+			'titleFontWeight' => array(
+				'type' => 'string',
+				'default' => '400'
+			),
+			'titleTextTransform' => array(
+				'type' => 'string',
+				'default' => 'none'
+			),
+			'titleFontStyle' => array(
+				'type' => 'string',
+				'default' => 'normal'
+			),
+			'titleTextDecoration' => array(
+				'type' => 'string',
+				'default' => 'none'
+			),
+			'titleLineHeight' => array(
+				'type' => 'number',
+				'default' => 1.5
+			),
+			'titleLetterSpacing' => array(
+				'type' => 'number',
+				'default' => 1.5
+			),
+			'titleWordSpacing' => array(
+				'type' => 'number',
+				'default' => 1
 			),
 			'contentColor' => array(
 				'type' => 'string',

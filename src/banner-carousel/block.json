@@ -189,6 +189,10 @@
 			"type":"string",
 			"default":"none"
 		},
+		"subtitleFontStyle": {
+      		"type": "string",
+      		"default": "normal"
+    	},
 		"subtitleTextDecoration":{
 			"type":"string",
 			"default": "none"
@@ -205,19 +209,41 @@
 			"type": "string",
 			"default": "#ffffff"
 		},
-		"titleTypography": {
-			"type": "object",
-			"default": {
-				"fontFamily": "inherit",
-				"fontSize": "48px",
-				"fontWeight": "700",
-				"textTransform": "uppercase",
-				"fontStyle": "normal",
-				"textDecoration": "none",
-				"lineHeight": "1.2",
-				"letterSpacing": "2px",
-				"wordSpacing": "0px"
-			}
+		"titleFontFamily":{
+			"type":"string",
+			"default":"inherit"
+		},
+		"titleFontSize":{
+			"type": "string",
+			"default": "16px"
+		},
+		"titleFontWeight":{
+			"type":"string",
+			"default": "400"
+		},
+		"titleTextTransform":{
+			"type":"string",
+			"default":"none"
+		},
+		"titleFontStyle":{
+			"type":"string",
+			"default":"normal"
+		},
+		"titleTextDecoration":{
+			"type":"string",
+			"default": "none"
+		},
+		"titleLineHeight":{
+			"type" : "number",
+			"default": 1.5
+		},
+		"titleLetterSpacing":{
+			"type":"number",
+			"default":1.5
+		},
+		"titleWordSpacing":{
+			"type":"number",
+			"default":1
 		},
 		"contentColor": {
 			"type": "string",

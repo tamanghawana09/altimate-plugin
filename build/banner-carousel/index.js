@@ -8,7 +8,7 @@
   \****************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleFontFamily":{"type":"string","default":"inherit"},"subtitleFontSize":{"type":"string","default":"16px"},"subtitleLineHeight":{"type":"number","default":1.5},"subtitleLetterSpacing":{"type":"number","default":1.5},"subtitleWordSpacing":{"type":"number","default":1},"subtitleFontWeight":{"type":"string","default":"400"},"subtitleTextTransform":{"type":"string","default":"none"},"subtitleTextDecoration":{"type":"string","default":"none"},"subtitleAnimationColor":{"type":"string","defaut":"#000000"},"subtitleDotColor":{"type":"string","defaut":"#000000"},"titleColor":{"type":"string","default":"#ffffff"},"titleTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"48px","fontWeight":"700","textTransform":"uppercase","fontStyle":"normal","textDecoration":"none","lineHeight":"1.2","letterSpacing":"2px","wordSpacing":"0px"}},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/altimate-banner-carousel","version":"1.0.0","title":"Altimate Banner Carousel Pro","category":"altimate","icon":"slides","description":"A highly customizable & responsive plugin for gutenberg.","example":{},"supports":{"html":false,"align":["wide","full"],"typography":{"fontSize":true,"lineHeight":true,"fontWeight":true,"letterSpacing":true,"textTransform":true,"fontStyle":true,"textDecoration":true}},"attributes":{"slides":{"type":"array","default":[{"id":1,"image":"","title":"SLIDER TITLE","content":"Slider CONTENT","buttonOneText":"BUTTON ONE","buttonOneUrl":"#","buttonTwoText":"BUTTON TWO","buttonTwoUrl":"#"}]},"socialIcons":{"type":"array","default":[],"items":{"type":"object","properties":{"icon":{"type":"string","default":""},"label":{"type":"string","default":""},"url":{"type":"string","default":""},"openInNewTab":{"type":"boolean","default":false}}}},"skins":{"type":"string","default":"default"},"slidesby":{"type":"number","default":1},"slideSpeed":{"type":"number","default":300},"zIndex":{"type":"number","default":1},"autoplay":{"type":"boolean","default":true},"autoplaySpeed":{"type":"number","default":3000},"loop":{"type":"boolean","default":true},"showDots":{"type":"boolean","default":true},"showIcons":{"type":"boolean","default":true},"showArrows":{"type":"boolean","default":true},"adaptiveHeight":{"type":"boolean","default":true},"padding":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"margin":{"type":"object","default":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"horizontalAlignment":{"type":"string","default":"center"},"verticalAlignment":{"type":"string","default":"center"},"sliderHeight":{"type":"string","default":"400px"},"unit":{"type":"string","default":"px","enum":["px","em","%","vh"]},"sliderWidth":{"type":"string","default":"100%"},"gap":{"type":"string","default":"0px"},"subtitleColor":{"type":"string","default":"#000000"},"subtitleFontFamily":{"type":"string","default":"inherit"},"subtitleFontSize":{"type":"string","default":"16px"},"subtitleLineHeight":{"type":"number","default":1.5},"subtitleLetterSpacing":{"type":"number","default":1.5},"subtitleWordSpacing":{"type":"number","default":1},"subtitleFontWeight":{"type":"string","default":"400"},"subtitleTextTransform":{"type":"string","default":"none"},"subtitleFontStyle":{"type":"string","default":"normal"},"subtitleTextDecoration":{"type":"string","default":"none"},"subtitleAnimationColor":{"type":"string","defaut":"#000000"},"subtitleDotColor":{"type":"string","defaut":"#000000"},"titleColor":{"type":"string","default":"#ffffff"},"titleFontFamily":{"type":"string","default":"inherit"},"titleFontSize":{"type":"string","default":"16px"},"titleFontWeight":{"type":"string","default":"400"},"titleTextTransform":{"type":"string","default":"none"},"titleFontStyle":{"type":"string","default":"normal"},"titleTextDecoration":{"type":"string","default":"none"},"titleLineHeight":{"type":"number","default":1.5},"titleLetterSpacing":{"type":"number","default":1.5},"titleWordSpacing":{"type":"number","default":1},"contentColor":{"type":"string","default":"#ffffff"},"contentTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"18px","fontWeight":"400","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.6","letterSpacing":"0px","wordSpacing":"0px"}},"primaryButtonColor":{"type":"string","default":"#333333"},"primaryButtonBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.9)"},"primaryButtonIconBgColor":{"type":"string","default":"#333333"},"primaryButtonIconColor":{"type":"string","default":"#ffffff"},"primaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"secondaryButtonColor":{"type":"string","default":"#ffffff"},"secondaryButtonBackgroundColor":{"type":"string","default":"rgba(0,0,0,0.8)"},"secondaryButtonIconBgColor":{"type":"string","default":"#4ECDC4"},"secondaryButtonIconColor":{"type":"string","default":"#ffffff"},"secondaryButtonTypography":{"type":"object","default":{"fontFamily":"inherit","fontSize":"14px","fontWeight":"600","textTransform":"none","fontStyle":"normal","textDecoration":"none","lineHeight":"1.4","letterSpacing":"0px","wordSpacing":"0px"}},"buttonBorderRadius":{"type":"string","default":"25px"},"buttonPadding":{"type":"object","default":{"top":"12px","right":"30px","bottom":"12px","left":"30px"}},"buttonIconPadding":{"type":"string","default":"10px"},"buttonIconBorderRadius":{"type":"string","default":"50%"},"navBackgroundColor":{"type":"string","default":"rgba(255,255,255,0.8)"},"navIconColor":{"type":"string","default":"#333333"},"navHoverBackgroundColor":{"type":"string","default":"rgba(255,255,255,1)"},"navHoverIconColor":{"type":"string","default":"#000000"},"dotBackgroundColor":{"type":"string","default":"#cccccc"},"dotActiveColor":{"type":"string","default":"#4ECDC4"},"dotHoverBackgroundColor":{"type":"string","default":"#999999"}},"textdomain":"altimate-gutenberg-carousel-pro","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
@@ -521,7 +521,18 @@ const ContentDesignSettings = ({
     subtitleTextDecoration,
     subtitleWordSpacing,
     subtitleAnimationColor,
-    subtitleDotColor
+    subtitleDotColor,
+    titleColor,
+    titleFontFamily,
+    titleFontSize,
+    titleFontWeight,
+    titleTextTransform,
+    titleFontStyle,
+    titleTextDecoration,
+    titleLineHeight,
+    titleLetterSpacing,
+    titleWordSpacing,
+    contentColor
   } = attributes;
   const updateHorizontalAlignment = newAlign => {
     setAttributes({
@@ -719,7 +730,7 @@ const ContentDesignSettings = ({
             subtitleColor: value
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.PanelBody, {
-          title: "Subtitle Settings",
+          title: "Subtitle Typography Settings",
           initialOpen: false,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
             value: subtitleFontFamily,
@@ -866,7 +877,314 @@ const ContentDesignSettings = ({
           onChange: value => setAttributes({
             subtitleDotColor: value
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {})]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: "Title Color"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ColorPalette, {
+          colors: colors,
+          value: titleColor,
+          onChange: value => setAttributes({
+            titleColor: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.PanelBody, {
+          title: "Title Typography Settings",
+          initialOpen: false,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
+            value: titleFontFamily,
+            onChange: value => setAttributes({
+              titleFontFamily: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+            children: "Font Size"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.FontSizePicker, {
+            value: titleFontSize,
+            onChange: size => setAttributes({
+              titleFontSize: size
+            }),
+            withSlider: true
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Font Weight",
+            value: titleFontWeight,
+            options: [{
+              label: "Default",
+              value: ""
+            }, {
+              label: "100",
+              value: "100"
+            }, {
+              label: "200",
+              value: "200"
+            }, {
+              label: "300",
+              value: "300"
+            }, {
+              label: "400",
+              value: "400"
+            }, {
+              label: "500",
+              value: "500"
+            }, {
+              label: "600",
+              value: "600"
+            }, {
+              label: "700",
+              value: "700"
+            }, {
+              label: "800",
+              value: "800"
+            }, {
+              label: "900",
+              value: "900"
+            }],
+            onChange: value => setAttributes({
+              titleFontWeight: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Text Transform",
+            value: titleTextTransform,
+            options: [{
+              label: "None",
+              value: "none"
+            }, {
+              label: "Uppercase",
+              value: "uppercase"
+            }, {
+              label: "Lowercase",
+              value: "lowercase"
+            }, {
+              label: "Capitalize",
+              value: "capitalize"
+            }],
+            onChange: value => setAttributes({
+              titleTextTransform: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Font Style",
+            value: titleFontStyle,
+            options: [{
+              label: "Normal",
+              value: "normal"
+            }, {
+              label: "Italic",
+              value: "italic"
+            }],
+            onChange: value => setAttributes({
+              titleFontStyle: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Text Decoration",
+            value: titleTextDecoration,
+            options: [{
+              label: "None",
+              value: "none"
+            }, {
+              label: "Underline",
+              value: "underline"
+            }, {
+              label: "Line Through",
+              value: "line-through"
+            }, {
+              label: "Overline",
+              value: "overline"
+            }],
+            onChange: value => setAttributes({
+              titleTextDecoration: value
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Line Height",
+            value: titleLineHeight,
+            onChange: value => setAttributes({
+              titleLineHeight: value
+            }),
+            min: 1,
+            max: 10,
+            step: 0.1
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Letter Spacing",
+            value: titleLetterSpacing,
+            onChange: value => setAttributes({
+              titleLetterSpacing: value
+            }),
+            min: 1,
+            max: 10,
+            step: 0.1
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Word Spacing",
+            value: titleWordSpacing,
+            onChange: value => setAttributes({
+              titleWordSpacing: value
+            }),
+            min: 0,
+            max: 50,
+            step: 1
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: "Content Color"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.ColorPalette, {
+          colors: colors,
+          value: contentColor,
+          onChange: value => setAttributes({
+            contentColor: value
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.PanelBody, {
+          title: "Content Typography Settings",
+          initialOpen: false,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_GoogleFontsPicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
+            value: attributes.contentTypography.fontFamily,
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                fontFamily: value
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+            children: "Font Size"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.FontSizePicker, {
+            value: attributes.contentTypography.fontSize,
+            onChange: size => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                fontSize: size
+              }
+            }),
+            withSlider: true
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Font Weight",
+            value: attributes.contentTypography.fontWeight,
+            options: [{
+              label: "Default",
+              value: ""
+            }, {
+              label: "100",
+              value: "100"
+            }, {
+              label: "200",
+              value: "200"
+            }, {
+              label: "300",
+              value: "300"
+            }, {
+              label: "400",
+              value: "400"
+            }, {
+              label: "500",
+              value: "500"
+            }, {
+              label: "600",
+              value: "600"
+            }, {
+              label: "700",
+              value: "700"
+            }, {
+              label: "800",
+              value: "800"
+            }, {
+              label: "900",
+              value: "900"
+            }],
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                fontWeight: value
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Text Transform",
+            value: attributes.contentTypography.textTranform,
+            options: [{
+              label: "None",
+              value: "none"
+            }, {
+              label: "Uppercase",
+              value: "uppercase"
+            }, {
+              label: "Lowercase",
+              value: "lowercase"
+            }, {
+              label: "Capitalize",
+              value: "capitalize"
+            }],
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                textTranform: value
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Font Style",
+            value: attributes.contentTypography.fontStyle,
+            options: [{
+              label: "Normal",
+              value: "normal"
+            }, {
+              label: "Italic",
+              value: "italic"
+            }],
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                fontStyle: value
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.SelectControl, {
+            label: "Text Decoration",
+            value: attributes.contentTypography.textDecoration,
+            options: [{
+              label: "None",
+              value: "none"
+            }, {
+              label: "Underline",
+              value: "underline"
+            }, {
+              label: "Line Through",
+              value: "line-through"
+            }, {
+              label: "Overline",
+              value: "overline"
+            }],
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                textDecoration: value
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Line Height",
+            value: attributes.contentTypography.lineHeight,
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                lineHeight: value
+              }
+            }),
+            min: 1,
+            max: 10,
+            step: 0.1
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Letter Spacing",
+            value: attributes.contentTypography.letterSpacing,
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                letterSpacing: value
+              }
+            }),
+            min: 1,
+            max: 10,
+            step: 0.1
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.RangeControl, {
+            label: "Word Spacing",
+            value: attributes.contentTypography.wordSpacing,
+            onChange: value => setAttributes({
+              contentTypography: {
+                ...attributes.contentTypography,
+                wordSpacing: value
+              }
+            }),
+            min: 0,
+            max: 50,
+            step: 1
+          })]
+        })]
       })]
     })
   });
